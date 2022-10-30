@@ -1,0 +1,19 @@
+:root {
+  color-scheme: light dark;
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'IBM Plex Sans';
+  min-height: 100vh;
+  min-width: 320px;
+}

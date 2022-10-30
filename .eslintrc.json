@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["google", "prettier", "plugin:vue/vue3-recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {},
+  "root": true
+}

@@ -1,0 +1,27 @@
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+
+*.sql
+
+node_modules
+dist
+*.local
+.DS_Store
+
+biblio
+server/python/data
+server/sequelize/config
+
+server/test-database/test-db.sqlite
+client/src/services/services.config.js
+
+client-copy
